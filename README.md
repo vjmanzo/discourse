@@ -8,6 +8,6 @@ The clarinet begins a conversation with the computer which responds by imitating
 <br>
 Demo:<br>
 https://www.youtube.com/watch?v=vosmJwdpPbo
-<br>
+<br><br>
 Duration 5 minutes and 30 seconds<br>
 A clock is given in the software. The clock numbers should correlate to time markings in this score when played at tempo. The performer needs only to press space bar on a computer running the Discourse software, and begin playing when the software cues to "begin".
