@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 450.0, 133.0, 662.0, 705.0 ],
+		"rect" : [ 450.0, 133.0, 656.0, 699.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -8537,8 +8537,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 418.0, 278.0, 62.0, 22.0 ],
-									"text" : "120 9000"
+									"patching_rect" : [ 418.0, 278.0, 59.0, 22.0 ],
+									"text" : "100 9000"
 								}
 
 							}
@@ -8565,7 +8565,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 188.0, 341.0, 55.0, 22.0 ],
+									"patching_rect" : [ 188.0, 319.0, 55.0, 22.0 ],
 									"text" : "90 9000"
 								}
 
@@ -8607,7 +8607,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 120.0, 210.0, 75.0, 20.0 ],
+									"patching_rect" : [ 120.0, 200.0, 75.0, 20.0 ],
 									"text" : "loadmess 120"
 								}
 
@@ -8663,7 +8663,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
-									"patching_rect" : [ 95.0, 351.0, 47.0, 22.0 ],
+									"patching_rect" : [ 95.0, 352.0, 47.0, 22.0 ],
 									"text" : "line"
 								}
 
@@ -9094,10 +9094,10 @@
 																	"outlettype" : [ "", "", "", "" ],
 																	"patching_rect" : [ 935.0, 74.0, 59.5, 20.0 ],
 																	"restore" : 																	{
-																		"filter-Q" : [ 120.0 ],
-																		"noise-threshold" : [ 1.0 ],
+																		"filter-Q" : [ 80.0 ],
+																		"noise-threshold" : [ 0.19 ],
 																		"pulse-amplitude" : [ 10.0 ],
-																		"pulse-period" : [ 5.102100216255012 ],
+																		"pulse-period" : [ 61.0 ],
 																		"pulse-width" : [ 38.0 ]
 																	}
 ,
@@ -10945,10 +10945,10 @@
 																	"outlettype" : [ "", "", "", "" ],
 																	"patching_rect" : [ 935.0, 74.0, 59.5, 20.0 ],
 																	"restore" : 																	{
-																		"filter-Q" : [ 120.0 ],
-																		"noise-threshold" : [ 1.0 ],
+																		"filter-Q" : [ 80.0 ],
+																		"noise-threshold" : [ 0.19 ],
 																		"pulse-amplitude" : [ 10.0 ],
-																		"pulse-period" : [ 6.067453877778022 ],
+																		"pulse-period" : [ 61.0 ],
 																		"pulse-width" : [ 38.0 ]
 																	}
 ,
@@ -13129,10 +13129,10 @@
 																	"outlettype" : [ "", "", "", "" ],
 																	"patching_rect" : [ 935.0, 74.0, 59.5, 20.0 ],
 																	"restore" : 																	{
-																		"filter-Q" : [ 120.0 ],
-																		"noise-threshold" : [ 1.0 ],
+																		"filter-Q" : [ 80.0 ],
+																		"noise-threshold" : [ 0.19 ],
 																		"pulse-amplitude" : [ 10.0 ],
-																		"pulse-period" : [ 15.289025708342919 ],
+																		"pulse-period" : [ 61.0 ],
 																		"pulse-width" : [ 38.0 ]
 																	}
 ,
@@ -15700,7 +15700,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 188.0, 387.0, 34.0, 87.0 ]
+									"patching_rect" : [ 188.0, 399.0, 43.0, 63.0 ]
 								}
 
 							}
@@ -16175,7 +16175,8 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-209", 0 ],
+									"destination" : [ "obj-38", 0 ],
+									"midpoints" : [ 197.5, 346.0, 104.5, 346.0 ],
 									"source" : [ "obj-263", 0 ]
 								}
 
@@ -16198,7 +16199,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-38", 0 ],
-									"midpoints" : [ 427.5, 312.5, 104.5, 312.5 ],
+									"midpoints" : [ 427.5, 316.5, 104.5, 316.5 ],
 									"source" : [ "obj-281", 0 ]
 								}
 
@@ -16521,7 +16522,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 336.0, 377.0, 107.0, 33.0 ],
-									"text" : "controls master gain level"
+									"text" : "controls main gain level"
 								}
 
 							}
@@ -26487,7 +26488,7 @@
 						"audiosupport" : 1,
 						"bundleidentifier" : "com.vjmanzo.discourse",
 						"cantclosetoplevelpatchers" : 0,
-						"cefsupport" : 1,
+						"cefsupport" : 0,
 						"copysupport" : 1,
 						"database" : 0,
 						"extensions" : 1,
@@ -26736,7 +26737,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 469.0, 1483.0, 86.0, 22.0 ],
+					"patching_rect" : [ 469.0, 1482.0, 86.0, 22.0 ],
 					"style" : "VJ Classic",
 					"text" : "loadmess 127"
 				}
@@ -27011,7 +27012,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"bgcolor" : [ 0.729411764705882, 0.737254901960784, 0.741176470588235, 1.0 ],
 					"checkedcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
 					"id" : "obj-321",
 					"maxclass" : "toggle",
@@ -27021,7 +27022,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 226.0, 1756.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 99.0, 16.0, 16.0 ],
+					"presentation_rect" : [ 15.0, 99.0, 23.0, 23.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -29433,8 +29434,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 258.0, 1765.0, 141.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 30.0, 98.0, 92.0, 29.0 ],
+					"presentation_linecount" : 4,
+					"presentation_rect" : [ 37.0, 99.0, 58.0, 51.0 ],
 					"text" : "Enable Demo Recording on Start"
 				}
 
@@ -30010,7 +30011,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1049.464721999999938, 784.203247000000033, 106.0, 62.0 ],
-					"text" : "8",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -30226,7 +30226,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 678.679442999999992, 765.703247000000033, 83.0, 51.0 ],
+					"patching_rect" : [ 672.179442999999992, 784.0, 83.0, 51.0 ],
 					"text" : "ending bang"
 				}
 
@@ -30393,7 +30393,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 794.169067000000041, 784.203247000000033, 154.0, 62.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 100.0, 98.0, 152.0, 62.0 ],
+					"presentation_rect" : [ 114.0, 98.0, 152.0, 62.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -31998,13 +31998,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
-					"source" : [ "obj-32", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
 					"source" : [ "obj-32", 1 ]
 				}
@@ -33140,28 +33133,28 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "VJManzo_info.maxpat",
-				"bootpath" : "~/Desktop/Discourse/patchers",
+				"bootpath" : "/Volumes/Media/Git Repos/_GitHub/discourse/Discourse/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "VJManzo_logo.png",
-				"bootpath" : "~/Desktop/Discourse/media",
+				"bootpath" : "/Volumes/Media/Git Repos/_GitHub/discourse/Discourse/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "classic-channel.maxpat",
-				"bootpath" : "~/Desktop/Discourse/patchers",
+				"bootpath" : "/Volumes/Media/Git Repos/_GitHub/discourse/Discourse/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "loopbuf4.maxpat",
-				"bootpath" : "~/Desktop/Discourse/patchers",
+				"bootpath" : "/Volumes/Media/Git Repos/_GitHub/discourse/Discourse/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -33172,7 +33165,7 @@
 			}
 , 			{
 				"name" : "modal_prog.maxpat",
-				"bootpath" : "~/Desktop/Discourse/patchers",
+				"bootpath" : "/Volumes/Media/Git Repos/_GitHub/discourse/Discourse/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -33183,7 +33176,7 @@
 			}
 , 			{
 				"name" : "stutter_me.maxpat",
-				"bootpath" : "~/Desktop/Discourse/patchers",
+				"bootpath" : "/Volumes/Media/Git Repos/_GitHub/discourse/Discourse/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
