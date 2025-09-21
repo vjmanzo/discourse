@@ -2,7 +2,7 @@
 	"name" : "Discourse",
 	"version" : 1,
 	"creationdate" : 3841246486,
-	"modificationdate" : 3841248430,
+	"modificationdate" : 3841335648,
 	"viewrect" : [ 25.0, 106.0, 300.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -52,17 +52,6 @@
 			"testing1.wav" : 			{
 				"kind" : "audiofile",
 				"local" : 1
-			}
-
-		}
-,
-		"externals" : 		{
-			"modal_change.mxo" : 			{
-				"kind" : "object"
-			}
-,
-			"modal_triad.mxo" : 			{
-				"kind" : "object"
 			}
 
 		}
