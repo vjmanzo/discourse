@@ -4834,7 +4834,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 30.75, 186.470000999999996, 231.0, 47.0 ],
+									"patching_rect" : [ 30.75, 186.470000999999996, 231.0, 48.0 ],
 									"text" : "A mono in, stereo out reverb, ported from the implementation by Juhana Sadeharju (kouhia@nic.funet.fi)."
 								}
 
@@ -4847,7 +4847,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 30.75, 156.470000999999996, 227.0, 24.0 ],
+									"patching_rect" : [ 30.75, 156.470000999999996, 227.0, 28.0 ],
 									"text" : "Gigaverb"
 								}
 
@@ -5126,7 +5126,7 @@
 										"Dry" : [ 0.070866141732285 ],
 										"Early" : [ 0.25 ],
 										"Regen" : [ 0.5 ],
-										"Size" : [ 74.999999999999986 ],
+										"Size" : [ 74.999999999999972 ],
 										"Spread" : [ 23.0 ],
 										"Tail" : [ 0.25 ],
 										"Time" : [ 0.1 ],
@@ -6027,10 +6027,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 572.0, 2290.0, 95.0, 51.0 ],
+					"patching_rect" : [ 572.0, 2290.0, 95.0, 52.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 372.0, 599.0, 79.5, 64.0 ],
+					"presentation_rect" : [ 372.0, 599.0, 79.5, 66.0 ],
 					"text" : "Make sure I'm orange (on)!",
 					"textcolor" : [ 0.380392, 0.223529, 0.482353, 1.0 ]
 				}
@@ -6068,7 +6068,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 818.262329000000136, 2249.5, 118.0, 35.0 ],
+					"patching_rect" : [ 818.262329000000136, 2249.5, 118.0, 36.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 381.0, 665.0, 263.0, 22.0 ],
 					"text" : "Additional Audio Settings",
@@ -6097,7 +6097,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1319.0, 2212.0, 154.0, 47.0 ],
+					"patching_rect" : [ 1319.0, 2212.0, 154.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 376.0, 551.0, 217.75, 27.0 ],
 					"text" : "Main Output Channels",
@@ -6131,7 +6131,7 @@
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "gradient",
 					"id" : "obj-145",
-					"items" : [ "Off", ",", 1, "Output 1", ",", 2, "Output 2" ],
+					"items" : [ "Off", ",", 1, "Left Output", ",", 2, "Right Output" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -6142,7 +6142,7 @@
 					"presentation_rect" : [ 484.0, 573.0, 100.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "Off", "1 Output 1", "2 Output 2" ],
+							"parameter_enum" : [ "Off", "1 Left Output", "2 Right Output" ],
 							"parameter_longname" : "umenu[4]",
 							"parameter_mmax" : 2,
 							"parameter_modmode" : 0,
@@ -6205,7 +6205,7 @@
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "gradient",
 					"id" : "obj-149",
-					"items" : [ "Off", ",", 1, "Output 1", ",", 2, "Output 2" ],
+					"items" : [ "Off", ",", 1, "Left Output", ",", 2, "Right Output" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -6216,7 +6216,7 @@
 					"presentation_rect" : [ 381.0, 573.0, 101.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "Off", "1 Output 1", "2 Output 2" ],
+							"parameter_enum" : [ "Off", "1 Left Output", "2 Right Output" ],
 							"parameter_longname" : "umenu[5]",
 							"parameter_mmax" : 2,
 							"parameter_modmode" : 0,
@@ -6280,7 +6280,7 @@
 					"bgfillcolor_type" : "gradient",
 					"hint" : "If working in the G11D lab, the default interface is the Fireface",
 					"id" : "obj-152",
-					"items" : [ "None", ",", "BlackHole 2ch", ",", "MacBook Air Microphone", ",", "Camo Microphone", ",", "VPhone-13 Microphone", ",", "Splashtop Remote Sound", ",", "ZoomAudioDevice" ],
+					"items" : [ "None", ",", "Microphone (High Definition Aud" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -6291,9 +6291,9 @@
 					"presentation_rect" : [ 378.0, 482.0, 268.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "None", "BlackHole 2ch", "MacBook Air Microphone", "Camo Microphone", "VPhone-13 Microphone", "Splashtop Remote Sound", "ZoomAudioDevice" ],
+							"parameter_enum" : [ "None", "Microphone (High Definition Aud" ],
 							"parameter_longname" : "umenu[6]",
-							"parameter_mmax" : 6,
+							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "umenu[6]",
 							"parameter_type" : 2
@@ -6352,7 +6352,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 597.262329000000136, 2223.5, 63.0, 35.0 ],
+					"patching_rect" : [ 597.262329000000136, 2223.5, 63.0, 36.0 ],
 					"text" : "loadmess start"
 				}
 
@@ -6400,7 +6400,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1629.0, 2203.0, 140.0, 47.0 ],
+					"patching_rect" : [ 1629.0, 2203.0, 140.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 378.0, 505.0, 197.0, 27.0 ],
 					"text" : "Audio Output Device",
@@ -6419,7 +6419,7 @@
 					"bgfillcolor_type" : "gradient",
 					"hint" : "If working in the G11D lab, the default interface is the Fireface",
 					"id" : "obj-323",
-					"items" : [ "None", ",", "BlackHole 2ch", ",", "MacBook Air Speakers", ",", "Camo Microphone", ",", "Splashtop Remote Sound", ",", "ZoomAudioDevice" ],
+					"items" : [ "None", ",", "Speakers (High Definition Audio" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -6430,9 +6430,9 @@
 					"presentation_rect" : [ 381.0, 528.0, 265.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "None", "BlackHole 2ch", "MacBook Air Speakers", "Camo Microphone", "Splashtop Remote Sound", "ZoomAudioDevice" ],
+							"parameter_enum" : [ "None", "Speakers (High Definition Audio" ],
 							"parameter_longname" : "umenu[7]",
-							"parameter_mmax" : 5,
+							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "umenu[7]",
 							"parameter_type" : 2
@@ -7421,7 +7421,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1076.411376999999902, 1128.0, 74.0, 35.0 ],
+									"patching_rect" : [ 1076.411376999999902, 1128.0, 74.0, 36.0 ],
 									"text" : "progressiveRelease $1"
 								}
 
@@ -8169,7 +8169,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1329.0, 704.0, 104.0, 33.0 ],
+					"patching_rect" : [ 1329.0, 704.0, 104.0, 34.0 ],
 					"text" : "filters out zero to display"
 				}
 
@@ -8234,7 +8234,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1237.756714000000102, 44.751221000000001, 60.0, 87.0 ],
+					"patching_rect" : [ 1237.756714000000102, 44.751221000000001, 60.0, 89.0 ],
 					"text" : "Delay before counting begins (in seconds)"
 				}
 
@@ -8248,7 +8248,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1108.429077000000007, 28.702148000000001, 55.0, 47.0 ],
+					"patching_rect" : [ 1108.429077000000007, 28.702148000000001, 55.0, 48.0 ],
 					"text" : "Count Up or Down"
 				}
 
@@ -8262,7 +8262,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1014.882567999999992, 57.751221000000001, 55.0, 33.0 ],
+					"patching_rect" : [ 1014.882567999999992, 57.751221000000001, 55.0, 34.0 ],
 					"text" : "Number of Beats"
 				}
 
@@ -9094,10 +9094,10 @@
 																	"outlettype" : [ "", "", "", "" ],
 																	"patching_rect" : [ 935.0, 74.0, 59.5, 20.0 ],
 																	"restore" : 																	{
-																		"filter-Q" : [ 80.0 ],
-																		"noise-threshold" : [ 0.19 ],
+																		"filter-Q" : [ 120.0 ],
+																		"noise-threshold" : [ 1.0 ],
 																		"pulse-amplitude" : [ 10.0 ],
-																		"pulse-period" : [ 61.0 ],
+																		"pulse-period" : [ 15.289025000000001 ],
 																		"pulse-width" : [ 38.0 ]
 																	}
 ,
@@ -10945,10 +10945,10 @@
 																	"outlettype" : [ "", "", "", "" ],
 																	"patching_rect" : [ 935.0, 74.0, 59.5, 20.0 ],
 																	"restore" : 																	{
-																		"filter-Q" : [ 80.0 ],
-																		"noise-threshold" : [ 0.19 ],
+																		"filter-Q" : [ 120.0 ],
+																		"noise-threshold" : [ 1.0 ],
 																		"pulse-amplitude" : [ 10.0 ],
-																		"pulse-period" : [ 61.0 ],
+																		"pulse-period" : [ 15.289025000000001 ],
 																		"pulse-width" : [ 38.0 ]
 																	}
 ,
@@ -13129,10 +13129,10 @@
 																	"outlettype" : [ "", "", "", "" ],
 																	"patching_rect" : [ 935.0, 74.0, 59.5, 20.0 ],
 																	"restore" : 																	{
-																		"filter-Q" : [ 80.0 ],
-																		"noise-threshold" : [ 0.19 ],
+																		"filter-Q" : [ 120.0 ],
+																		"noise-threshold" : [ 1.0 ],
 																		"pulse-amplitude" : [ 10.0 ],
-																		"pulse-period" : [ 61.0 ],
+																		"pulse-period" : [ 15.289025000000001 ],
 																		"pulse-width" : [ 38.0 ]
 																	}
 ,
@@ -26454,7 +26454,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 263.0, 501.0, 117.0, 35.0 ],
+					"patching_rect" : [ 263.0, 501.0, 117.0, 36.0 ],
 					"style" : "VJ Classic",
 					"text" : "patcher \"discourse by V.J. Manzo\""
 				}
@@ -26467,7 +26467,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 263.0, 541.0, 69.0, 22.0 ],
+					"patching_rect" : [ 263.0, 547.0, 69.0, 22.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"style" : "VJ Classic",
 					"text" : "thispatcher"
@@ -26480,11 +26480,11 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 263.0, 568.0, 69.0, 22.0 ],
+					"patching_rect" : [ 263.0, 581.0, 69.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
 						"appicon_mac" : "Macintosh HD:/Users/VJ/Desktop/Discourse/other/VJ.icns",
-						"appicon_win" : "Macintosh HD:/Users/VJ/Desktop/Discourse/other/VJ.ico",
+						"appicon_win" : "C:/Users/mcchi/OneDrive/Documents/GitHub/discourse/Discourse/other/VJ.ico",
 						"audiosupport" : 1,
 						"bundleidentifier" : "com.vjmanzo.discourse",
 						"cantclosetoplevelpatchers" : 0,
@@ -26627,7 +26627,7 @@
 					"patching_rect" : [ 527.953430000000026, 1712.0, 67.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
-					"presentation_rect" : [ 325.0, 379.0, 18.0, 87.0 ],
+					"presentation_rect" : [ 325.0, 379.0, 18.0, 89.0 ],
 					"text" : "STEREO"
 				}
 
@@ -26671,10 +26671,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 763.0, 1567.0, 215.0, 114.0 ],
+					"patching_rect" : [ 763.0, 1567.0, 215.0, 117.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 8,
-					"presentation_rect" : [ 376.0, 234.0, 268.0, 114.0 ],
+					"presentation_rect" : [ 376.0, 234.0, 268.0, 117.0 ],
 					"text" : "\n\nFirst arm the recording. You will be asked to enter two filenames: one for the computer generated audio and the other for the performer's audio. Next click the record toggle. When you are finished recording, uncheck this box."
 				}
 
@@ -26688,10 +26688,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 19.0, 258.0, 384.0, 181.0 ],
+					"patching_rect" : [ 19.0, 258.0, 384.0, 186.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 15,
-					"presentation_rect" : [ 376.0, 11.0, 268.0, 208.0 ],
+					"presentation_rect" : [ 376.0, 11.0, 268.0, 213.0 ],
 					"text" : " \n\n1) Make sure that the \"Audio IN/Out\" icons are both red by clicking them if necessary\n\n2) Press the space bar (or click start) and begin playing the score into a mic (see clock)\n\n3) The clock is included to help you reference sections of the score that are given time markings\n\n4) to reset the clock, press the space bar, but you must close and restart the program to reset the FX and clear the buffers. "
 				}
 
@@ -26705,10 +26705,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 625.0, 1607.0, 21.0, 74.0 ],
+					"patching_rect" : [ 625.0, 1607.0, 21.0, 75.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 301.0, 396.0, 24.0, 74.0 ],
+					"presentation_rect" : [ 301.0, 396.0, 24.0, 75.0 ],
 					"text" : "R\nI\nG\nH\nT"
 				}
 
@@ -26722,10 +26722,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 600.0, 1613.0, 20.0, 60.0 ],
+					"patching_rect" : [ 600.0, 1613.0, 20.0, 62.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 275.0, 396.0, 20.0, 60.0 ],
+					"presentation_rect" : [ 275.0, 396.0, 20.0, 62.0 ],
 					"text" : "L\nE\nF\nT"
 				}
 
@@ -26945,10 +26945,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 129.0, 1599.0, 24.0, 127.0 ],
+					"patching_rect" : [ 129.0, 1599.0, 24.0, 131.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 9,
-					"presentation_rect" : [ 14.0, 341.0, 24.0, 127.0 ],
+					"presentation_rect" : [ 14.0, 341.0, 24.0, 131.0 ],
 					"text" : "M\nI\nC\n\n I\nN\nP\nU\nT"
 				}
 
@@ -26962,10 +26962,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 109.460555999999997, 1916.0, 41.0, 33.0 ],
+					"patching_rect" : [ 109.460555999999997, 1916.0, 41.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 7,
-					"presentation_rect" : [ 59.0, 342.0, 20.0, 100.0 ],
+					"presentation_rect" : [ 59.0, 342.0, 20.0, 103.0 ],
 					"text" : "DRY\n OUT"
 				}
 
@@ -27104,7 +27104,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1029.0, 1691.0, 67.0, 33.0 ],
+					"patching_rect" : [ 1029.0, 1691.0, 67.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 129.0, 387.0, 105.0, 20.0 ],
 					"text" : "Test Audio Output"
@@ -27195,7 +27195,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-294",
-					"items" : [ "None", ",", "Core Audio", ",", "NonRealTime", ",", "ad_portaudio", "Core Audio" ],
+					"items" : [ "None", ",", "ad_directsound", "", ",", "ad_mme", "", ",", "NonRealTime", ",", "ad_portaudio", "MME", ",", "ad_portaudio", "Windows DirectSound", ",", "ad_portaudio", "Windows WASAPI", ",", "ad_portaudio", "Windows WDM-KS" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -27241,7 +27241,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 220.5, 2160.0, 81.0, 32.0 ],
+					"patching_rect" : [ 220.5, 2160.0, 81.0, 33.0 ],
 					"text" : "choose an audio driver"
 				}
 
@@ -27255,7 +27255,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 652.0, 1604.0, 60.0, 47.0 ],
+					"patching_rect" : [ 652.0, 1604.0, 60.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 268.0, 261.0, 109.0, 27.0 ],
 					"text" : "Audio Out"
@@ -27272,9 +27272,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 258.0, 1315.0, 71.0, 62.0 ],
+					"patching_rect" : [ 258.0, 1315.0, 71.0, 64.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 157.0, 97.0, 62.0 ],
+					"presentation_rect" : [ 10.0, 157.0, 97.0, 64.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -27301,9 +27301,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 344.0, 1315.0, 71.0, 62.0 ],
+					"patching_rect" : [ 344.0, 1315.0, 71.0, 64.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 121.0, 157.0, 97.0, 62.0 ],
+					"presentation_rect" : [ 121.0, 157.0, 97.0, 64.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -27330,9 +27330,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 437.0, 1315.0, 79.0, 62.0 ],
+					"patching_rect" : [ 437.0, 1315.0, 79.0, 64.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 229.0, 157.0, 105.0, 62.0 ],
+					"presentation_rect" : [ 229.0, 157.0, 105.0, 64.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -28513,9 +28513,9 @@
 								"box" : 								{
 									"id" : "obj-61",
 									"maxclass" : "modal_change",
-									"numinlets" : 2,
-									"numoutlets" : 9,
-									"outlettype" : [ "int", "int", "int", "int", "int", "int", "int", "int", "list" ],
+									"numinlets" : 3,
+									"numoutlets" : 8,
+									"outlettype" : [ "", "", "", "", "", "", "", "" ],
 									"patching_rect" : [ 278.0, 260.0, 682.0, 68.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 579.0, 398.0, 682.0, 68.0 ]
@@ -28530,7 +28530,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 10,
 									"numoutlets" : 7,
-									"outlettype" : [ "int", "int", "int", "int", "int", "int", "int" ],
+									"outlettype" : [ "", "", "", "", "", "", "" ],
 									"patching_rect" : [ 364.5, 455.0, 182.0, 19.0 ],
 									"text" : "modal_triad"
 								}
@@ -28771,7 +28771,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-62", 1 ],
-									"midpoints" : [ 237.0, 348.5, 392.111111111111086, 348.5 ],
+									"midpoints" : [ 237.0, 348.5, 537.0, 348.5 ],
 									"source" : [ "obj-44", 0 ]
 								}
 
@@ -28860,7 +28860,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-61", 1 ],
-									"midpoints" : [ 396.5, 216.0, 950.5, 216.0 ],
+									"midpoints" : [ 396.5, 216.0, 619.0, 216.0 ],
 									"source" : [ "obj-56", 0 ]
 								}
 
@@ -28876,7 +28876,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-62", 9 ],
-									"midpoints" : [ 867.625, 373.5, 537.0, 373.5 ],
+									"midpoints" : [ 950.5, 373.5, 537.0, 373.5 ],
 									"source" : [ "obj-61", 7 ]
 								}
 
@@ -28884,7 +28884,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-62", 8 ],
-									"midpoints" : [ 784.75, 373.5, 518.888888888888914, 373.5 ],
+									"midpoints" : [ 855.785714285714334, 373.5, 518.888888888888914, 373.5 ],
 									"source" : [ "obj-61", 6 ]
 								}
 
@@ -28892,7 +28892,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-62", 7 ],
-									"midpoints" : [ 701.875, 373.5, 500.777777777777771, 373.5 ],
+									"midpoints" : [ 761.071428571428555, 373.5, 500.777777777777771, 373.5 ],
 									"source" : [ "obj-61", 5 ]
 								}
 
@@ -28900,7 +28900,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-62", 6 ],
-									"midpoints" : [ 619.0, 373.5, 482.666666666666686, 373.5 ],
+									"midpoints" : [ 666.35714285714289, 373.5, 482.666666666666686, 373.5 ],
 									"source" : [ "obj-61", 4 ]
 								}
 
@@ -28908,7 +28908,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-62", 5 ],
-									"midpoints" : [ 536.125, 373.5, 464.555555555555543, 373.5 ],
+									"midpoints" : [ 571.64285714285711, 373.5, 464.555555555555543, 373.5 ],
 									"source" : [ "obj-61", 3 ]
 								}
 
@@ -28916,7 +28916,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-62", 4 ],
-									"midpoints" : [ 453.25, 373.5, 446.444444444444457, 373.5 ],
+									"midpoints" : [ 476.928571428571445, 373.5, 446.444444444444457, 373.5 ],
 									"source" : [ "obj-61", 2 ]
 								}
 
@@ -28924,7 +28924,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-62", 3 ],
-									"midpoints" : [ 370.375, 373.5, 428.333333333333314, 373.5 ],
+									"midpoints" : [ 382.214285714285722, 373.5, 428.333333333333314, 373.5 ],
 									"source" : [ "obj-61", 1 ]
 								}
 
@@ -28940,7 +28940,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-105", 0 ],
-									"midpoints" : [ 428.333333333333314, 515.659636999999975, 401.5, 515.659636999999975 ],
+									"midpoints" : [ 537.0, 515.659636999999975, 401.5, 515.659636999999975 ],
 									"source" : [ "obj-62", 2 ]
 								}
 
@@ -28948,7 +28948,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-106", 0 ],
-									"midpoints" : [ 401.166666666666686, 515.159636999999975, 342.5, 515.159636999999975 ],
+									"midpoints" : [ 455.5, 515.159636999999975, 342.5, 515.159636999999975 ],
 									"source" : [ "obj-62", 1 ]
 								}
 
@@ -29656,10 +29656,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1275.0, 1954.0, 153.0, 141.0 ],
+					"patching_rect" : [ 1275.0, 1954.0, 153.0, 144.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
-					"presentation_rect" : [ 375.0, 366.0, 272.0, 87.0 ],
+					"presentation_rect" : [ 375.0, 366.0, 272.0, 89.0 ],
 					"text" : "\n\nIf you are having trouble getting the mic to work, ensure that you are using the correct audio driver. Next, double click this small button\nand select the appropriate inputs and outputs."
 				}
 
@@ -29672,9 +29672,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 435.0, 1372.0, 108.0, 31.0 ],
+					"patching_rect" : [ 435.0, 1372.0, 108.0, 32.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 227.0, 216.0, 108.0, 31.0 ],
+					"presentation_rect" : [ 227.0, 216.0, 108.0, 32.0 ],
 					"text" : "Seconds"
 				}
 
@@ -29687,9 +29687,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 344.0, 1372.0, 89.0, 31.0 ],
+					"patching_rect" : [ 344.0, 1372.0, 89.0, 32.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 117.0, 216.0, 106.0, 31.0 ],
+					"presentation_rect" : [ 117.0, 216.0, 106.0, 32.0 ],
 					"text" : "Minutes"
 				}
 
@@ -29702,9 +29702,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 256.0, 1372.0, 73.0, 31.0 ],
+					"patching_rect" : [ 256.0, 1372.0, 73.0, 32.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 216.0, 103.0, 31.0 ],
+					"presentation_rect" : [ 9.0, 216.0, 103.0, 32.0 ],
 					"text" : "Hours"
 				}
 
@@ -29761,9 +29761,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 18.0, 121.0, 216.0, 60.0 ],
+					"patching_rect" : [ 18.0, 121.0, 216.0, 62.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 5.0, 242.0, 60.0 ],
+					"presentation_rect" : [ 14.0, 5.0, 242.0, 62.0 ],
 					"text" : "discourse"
 				}
 
@@ -29839,7 +29839,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 67.0, 108.0, 344.0, 25.0 ],
-									"text" : ";\rmax launch_browser http://www.vjmanzo.com/cv"
+									"text" : ";\r\nmax launch_browser http://www.vjmanzo.com/cv"
 								}
 
 							}
@@ -29965,7 +29965,7 @@
 					"patching_rect" : [ 258.0, 1765.0, 141.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 37.0, 99.0, 58.0, 51.0 ],
+					"presentation_rect" : [ 37.0, 99.0, 58.0, 52.0 ],
 					"text" : "Enable Demo Recording on Start"
 				}
 
@@ -30005,7 +30005,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1234.852538999999979, 203.064696999999995, 90.0, 74.0 ],
+					"patching_rect" : [ 1234.852538999999979, 203.064696999999995, 90.0, 75.0 ],
 					"text" : "override display numbers (set vj.countdown argument to 0)"
 				}
 
@@ -30540,7 +30540,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1049.464721999999938, 784.203247000000033, 106.0, 62.0 ],
+					"patching_rect" : [ 1049.464721999999938, 784.203247000000033, 106.0, 64.0 ],
+					"text" : "24",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -30756,7 +30757,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 672.179442999999992, 784.0, 83.0, 51.0 ],
+					"patching_rect" : [ 672.179442999999992, 784.0, 83.0, 52.0 ],
 					"text" : "ending bang"
 				}
 
@@ -30799,7 +30800,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 599.496338000000037, 157.434325999999999, 187.0, 65.0 ],
+					"patching_rect" : [ 599.496338000000037, 157.434325999999999, 187.0, 66.0 ],
 					"text" : "Counting In Section"
 				}
 
@@ -30880,9 +30881,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 525.166259999999966, 797.5, 80.0, 24.0 ],
+					"patching_rect" : [ 525.166259999999966, 797.5, 80.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 125.0, 128.0, 73.111237000000003, 24.0 ],
+					"presentation_rect" : [ 125.0, 128.0, 73.111237000000003, 25.0 ],
 					"text" : "Count In"
 				}
 
@@ -30921,9 +30922,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 794.169067000000041, 784.203247000000033, 154.0, 62.0 ],
+					"patching_rect" : [ 794.169067000000041, 784.203247000000033, 154.0, 64.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 114.0, 98.0, 152.0, 62.0 ],
+					"presentation_rect" : [ 114.0, 98.0, 152.0, 64.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -31036,9 +31037,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 683.679442999999992, 602.556151999999997, 60.0, 51.0 ],
+					"patching_rect" : [ 683.679442999999992, 602.556151999999997, 60.0, 52.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 138.0, 92.0, 158.0, 51.0 ],
+					"presentation_rect" : [ 138.0, 92.0, 158.0, 52.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -31119,7 +31120,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1111.23522899999989, 205.434325999999999, 60.0, 87.0 ],
+					"patching_rect" : [ 1111.23522899999989, 205.434325999999999, 60.0, 89.0 ],
 					"text" : "Delay before counting begins (in seconds)"
 				}
 
@@ -31133,7 +31134,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1021.612548999999944, 205.434325999999999, 55.0, 47.0 ],
+					"patching_rect" : [ 1021.612548999999944, 205.434325999999999, 55.0, 48.0 ],
 					"text" : "Count Up or Down"
 				}
 
@@ -31147,7 +31148,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 943.065918000000011, 205.434325999999999, 55.0, 33.0 ],
+					"patching_rect" : [ 943.065918000000011, 205.434325999999999, 55.0, 34.0 ],
 					"text" : "Number of Beats"
 				}
 
@@ -32528,6 +32529,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
 					"source" : [ "obj-32", 1 ]
 				}
@@ -33663,50 +33671,42 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "VJManzo_info.maxpat",
-				"bootpath" : "~/Documents/GitHub/discourse/Discourse/patchers",
+				"bootpath" : "~/OneDrive/Documents/GitHub/discourse/Discourse/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "VJManzo_logo.png",
-				"bootpath" : "~/Documents/GitHub/discourse/Discourse/media",
+				"bootpath" : "~/OneDrive/Documents/GitHub/discourse/Discourse/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "classic-channel.maxpat",
-				"bootpath" : "~/Documents/GitHub/discourse/Discourse/patchers",
+				"bootpath" : "~/OneDrive/Documents/GitHub/discourse/Discourse/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "loopbuf4.maxpat",
-				"bootpath" : "~/Documents/GitHub/discourse/Discourse/patchers",
+				"bootpath" : "~/OneDrive/Documents/GitHub/discourse/Discourse/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "modal_change.mxo",
-				"type" : "iLaX"
 			}
 , 			{
 				"name" : "modal_prog.maxpat",
-				"bootpath" : "~/Documents/GitHub/discourse/Discourse/patchers",
+				"bootpath" : "~/OneDrive/Documents/GitHub/discourse/Discourse/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "modal_triad.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "stutter_me.maxpat",
-				"bootpath" : "~/Documents/GitHub/discourse/Discourse/patchers",
+				"bootpath" : "~/OneDrive/Documents/GitHub/discourse/Discourse/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
