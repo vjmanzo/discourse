@@ -17,3 +17,10 @@ Duration 5 minutes and 30 seconds<br>
 Requires Max 8 or later<br>
 * From the Max package manager, install the EAMIR SDK package and the Miraweb package.<br>
 On Windows, you may need to install the Bonjour services from Apple https://support.apple.com/en-us/106380
+
+
+## Contributing
+
+Navigate to the [CONTRIBUTING.md](./CONTRIBUTING.md) file for guidelines on how to contribute to the project.
+
+Music, audio, and other creative works produced using Discourse are not considered Contributions and remain the sole property of their creators.
